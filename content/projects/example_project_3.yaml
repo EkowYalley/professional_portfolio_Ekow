@@ -1,0 +1,46 @@
+# ============================================================
+# content/projects/example_project_3.yaml
+# ============================================================
+# Example project: AWS Serverless Analytics Pipeline
+# Copy this file to create your own project entries.
+# ============================================================
+
+title: "AWS Serverless Analytics Pipeline"
+
+short_summary: >
+  Built a scalable AWS serverless pipeline to ingest IoT sensor streams,
+  transform data on the fly, and deliver near-real-time alerts and
+  analytics dashboards for operations teams.
+
+tech_stack:
+  - AWS Lambda
+  - Amazon S3
+  - AWS Glue
+  - Amazon DynamoDB
+  - Amazon API Gateway
+  - Amazon CloudWatch
+  - Python
+  - AWS CloudFormation
+
+problem_statement: >
+  The manufacturing operations team lacked a low-latency way to monitor
+  line sensor health and react to anomalies. Existing systems were
+  manual, fragmented, and unable to scale with increasing event volume.
+
+approach: >
+  Designed an event-driven ingestion pipeline using API Gateway and
+  Lambda to capture streaming sensor data into S3. Added Lambda-based
+  ETL transforms to normalize records, store aggregate metrics in
+  DynamoDB, and emit CloudWatch custom metrics for monitoring. Used
+  CloudFormation to provision infrastructure and QuickSight-compatible
+  outputs for dashboards.
+
+results_impact: >
+  The solution processed over 1.2 million sensor events per day with
+  end-to-end latency under 30 seconds. Automated alerts reduced
+  response time by 60%, and operations staff adopted the dashboard as
+  the primary tool for tracking line performance and incident trends.
+
+repo_url: "https://github.com/zeke-wonder-dog/aws-serverless-pipeline"
+notebook_url: "https://github.com/zeke-wonder-dog/aws-serverless-pipeline/blob/main/architecture_diagram.png"
+image_path: "img/placeholder_project_1.png"
