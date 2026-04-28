@@ -8,10 +8,10 @@
 title: "Project Sql"
 
 short_summary: >
-  FOr this SQL project I had to work with the Actors database to figure out some insightson the data base.
+  For this SQL project I had to work with the Actors database to figure out some insightson the data base.
   I answered various questions about the data base and I had to use different SQL commands to get the answers, like which actor
   generates the most revenue by agregating data bases. I used this insight to make recommendations to the manager of the video store on how to optimize sales and inventory management.
-  
+
 
 tech_stack:
   - Python
