@@ -54,13 +54,13 @@ I picked the projects that best represent my abilities and interests, and showca
       <div class="project-image-wrapper">
         <img
           src="img/placeholder_project_1.png"
-          alt="Thumbnail for Project Numba"
+          alt="Thumbnail for Project Sql"
           class="project-image"
         />
       </div>
 
       <div class="project-body">
-        <h3 class="project-title">Project Numba</h3>
+        <h3 class="project-title">Project Sql</h3>
 
         <!-- Short summary written for a non-expert audience -->
         <p class="project-summary">Built a model to identify the best nap locations on MSU&#39;s campus based on sunlight exposure, foot traffic, grass quality, and proximity to food smells. Findings have been peer-reviewed by three other dogs and were described as &#34;life-changing&#34; and &#34;very good.&#34;
@@ -71,11 +71,15 @@ I picked the projects that best represent my abilities and interests, and showca
           
           <span class="tech-badge">Python</span>
           
-          <span class="tech-badge">scikit-learn</span>
+          <span class="tech-badge">os</span>
           
-          <span class="tech-badge">pandas</span>
+          <span class="tech-badge">SQL</span>
           
-          <span class="tech-badge">matplotlib</span>
+          <span class="tech-badge">Pandas</span>
+          
+          <span class="tech-badge">Matplotlib</span>
+          
+          <span class="tech-badge">sqlalchemy</span>
           
           <span class="tech-badge">Jupyter Notebooks</span>
           
@@ -87,19 +91,21 @@ I picked the projects that best represent my abilities and interests, and showca
 
           <div class="detail-block">
             <h4>Problem</h4>
-            <p>Finding a good nap spot is harder than it looks. Campus is large, conditions change throughout the day, and the best patches of sun move. A mascot operating on intuition alone wastes valuable resting time — a problem that affects productivity, morale, and tail-wagging rates across the entire campus community.
+            <p>For this SQL project I had to work with the Actors database to figure out some insightson the data base. I answered various questions about the data base and I had to use different SQL commands to get the answers, like which actor generates the most revenue by agregating data bases.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>Collected location data across 47 candidate nap sites over a full academic semester. Features included average daily sunlight (hours), grass softness score (1–10, assessed manually), nearby food-cart proximity, and pedestrian traffic by hour. Trained a gradient boosting classifier to predict a site&#39;s &#34;nap quality&#34; rating and used SHAP values to explain which features mattered most.
+            <p>My approach involved designing and implementing SQL queries to extract and analyze data from the Actors database.
+ I focused on understanding the relationships between different entities in the database and used aggregate functions to compute key metrics.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Results &amp; Impact</h4>
-            <p>The model achieved 89% accuracy on held-out test sites. Sunlight duration and grass softness were the top two predictive features, while proximity to the student union food court provided a meaningful but secondary boost. A ranked list of top-10 nap sites was distributed to the campus dog community and has since been downloaded 847 times.
+            <p>The results provided valuable insights into the performance of different actors and helped identify key revenue drivers. The results also showed what drove sales at the store and what actors were the most popular. This information can be used to make
+ informed decisions about marketing strategies and inventory management, for the manager of of the video store.
 </p>
           </div>
         </details>
@@ -107,12 +113,83 @@ I picked the projects that best represent my abilities and interests, and showca
         <!-- Links to the GitHub repo and notebook -->
         <div class="project-links">
           
-          <a href="https://github.com/zeke-wonder-dog/nap-spot-predictor" target="_blank" rel="noopener" class="btn btn-repo">
+          <a href="https://github.com/EkowYalley/cmse492-hw02-yalleyek.git" target="_blank" rel="noopener" class="btn btn-repo">
             View Repo
           </a>
           
           
-          <a href="https://github.com/zeke-wonder-dog/nap-spot-predictor/blob/main/analysis.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+          <a href="https://github.com/EkowYalley/cmse492-hw02-yalleyek/blob/main/HW02-STUDENT.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
+            View Notebook
+          </a>
+          
+        </div>
+      </div>
+
+    </article>
+    
+    <article class="project-card">
+
+      <!-- Project thumbnail image -->
+      <div class="project-image-wrapper">
+        <img
+          src="img/Project_3.png"
+          alt="Thumbnail for Project Me vs You"
+          class="project-image"
+        />
+      </div>
+
+      <div class="project-body">
+        <h3 class="project-title">Project Me vs You</h3>
+
+        <!-- Short summary written for a non-expert audience -->
+        <p class="project-summary">This is a project I made at a recent hackathon in the category of games.  I used the turtle library to create a game inspired by snake but it was a two player game.  The game was called me vs you and the goal was to eat the food and grow your snake while trying to avoid colliding with the other snake.  The game was a lot of fun to make and play and I learned a lot about how to use the turtle library to create games.
+</p>
+
+        <!-- Tech stack as pill badges -->
+        <div class="tech-stack">
+          
+          <span class="tech-badge">Python</span>
+          
+          <span class="tech-badge">Turtle</span>
+          
+          <span class="tech-badge">Time</span>
+          
+          <span class="tech-badge">Random</span>
+          
+        </div>
+
+        <!-- Collapsible details (problem / approach / results) -->
+        <details class="project-details">
+          <summary>More details</summary>
+
+          <div class="detail-block">
+            <h4>Problem</h4>
+            <p>The problem was to create an engaging two-player snake game using the turtle library in Python.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Approach</h4>
+            <p>I built the game step by step, starting with simple snake movement and then adding a second player. I kept the code organized by putting movement and reset behavior into separate functions like move_snake and reset_snake. I also used Git to track changes and tested the game carefully to make sure collisions and boundaries work correctly.
+</p>
+          </div>
+
+          <div class="detail-block">
+            <h4>Results &amp; Impact</h4>
+            <p>The final result is a working two-player snake game made with Turtle. I improved the game by replacing hardcoded settings with variables so it is easier to adjust difficulty. The cleaner reset logic also fixed crashes when both snakes collided, making the game more stable and fun to play.
+</p>
+          </div>
+        </details>
+
+        <!-- Links to the GitHub repo and notebook -->
+        <div class="project-links">
+          
+          <a href="https://github.com/EkowYalley/Me-vs-You/tree/main" target="_blank" rel="noopener" class="btn btn-repo">
+            View Repo
+          </a>
+          
+          
+          <a href="https://github.com/EkowYalley/Me-vs-You/blob/main/Hack.py" target="_blank" rel="noopener" class="btn btn-notebook">
             View Notebook
           </a>
           
@@ -127,79 +204,6 @@ I picked the projects that best represent my abilities and interests, and showca
       <div class="project-image-wrapper">
         <img
           src="img/placeholder_project_2.png"
-          alt="Thumbnail for Project Me vs You"
-          class="project-image"
-        />
-      </div>
-
-      <div class="project-body">
-        <h3 class="project-title">Project Me vs You</h3>
-
-        <!-- Short summary written for a non-expert audience -->
-        <p class="project-summary">Analyzed audio and attendance data from Spartan Stadium to understand what game events drive the loudest crowd reactions. Results were used to help the athletics department optimize in-game entertainment and — personally — to determine the exact moments when I should run onto the field for maximum dramatic effect.
-</p>
-
-        <!-- Tech stack as pill badges -->
-        <div class="tech-stack">
-          
-          <span class="tech-badge">Python</span>
-          
-          <span class="tech-badge">pandas</span>
-          
-          <span class="tech-badge">seaborn</span>
-          
-          <span class="tech-badge">Plotly</span>
-          
-          <span class="tech-badge">Jupyter Notebooks</span>
-          
-        </div>
-
-        <!-- Collapsible details (problem / approach / results) -->
-        <details class="project-details">
-          <summary>More details</summary>
-
-          <div class="detail-block">
-            <h4>Problem</h4>
-            <p>Fan energy is contagious, but it is also unpredictable. The athletics department wanted to know which in-game events (touchdowns, turnovers, big defensive stops, walk-up music choices) produced the biggest crowd reactions — and whether the pattern differed by opponent, weather, or game time. As the mascot, I had strong professional interest in this question.
-</p>
-          </div>
-
-          <div class="detail-block">
-            <h4>Approach</h4>
-            <p>Combined play-by-play game data with decibel readings from stadium microphones across three seasons (~36 home games). Engineered features for score differential, down-and-distance, quarter, temperature, and opponent rank. Produced interactive Plotly dashboards that let non-technical staff filter by season and event type to explore crowd response patterns on their own.
-</p>
-          </div>
-
-          <div class="detail-block">
-            <h4>Results &amp; Impact</h4>
-            <p>Defensive turnovers produced the loudest average crowd response — louder even than touchdowns — especially when MSU was trailing. Walk-up music selections in the 3rd quarter showed a statistically significant effect on cheer volume for games decided by fewer than 10 points. The athletics team used these findings to redesign the third-quarter entertainment package for the following season. I was given extra treats for my contributions.
-</p>
-          </div>
-        </details>
-
-        <!-- Links to the GitHub repo and notebook -->
-        <div class="project-links">
-          
-          <a href="https://github.com/zeke-wonder-dog/spartan-cheer-analysis" target="_blank" rel="noopener" class="btn btn-repo">
-            View Repo
-          </a>
-          
-          
-          <a href="https://github.com/zeke-wonder-dog/spartan-cheer-analysis/blob/main/cheer_analysis.ipynb" target="_blank" rel="noopener" class="btn btn-notebook">
-            View Notebook
-          </a>
-          
-        </div>
-      </div>
-
-    </article>
-    
-    <article class="project-card">
-
-      <!-- Project thumbnail image -->
-      <div class="project-image-wrapper">
-        <img
-          src="img/placeholder_project_1.png"
           alt="Thumbnail for AWS "
           class="project-image"
         />
@@ -209,27 +213,19 @@ I picked the projects that best represent my abilities and interests, and showca
         <h3 class="project-title">AWS </h3>
 
         <!-- Short summary written for a non-expert audience -->
-        <p class="project-summary">Built a scalable AWS serverless pipeline to ingest IoT sensor streams, transform data on the fly, and deliver near-real-time alerts and analytics dashboards for operations teams.
+        <p class="project-summary">The goal of this project was to explore AWS by picking a stackholder question and then using different Aws services like Atena and S3 as well as  sagemaker to answer the question. 
 </p>
 
         <!-- Tech stack as pill badges -->
         <div class="tech-stack">
           
-          <span class="tech-badge">AWS Lambda</span>
-          
-          <span class="tech-badge">Amazon S3</span>
-          
-          <span class="tech-badge">AWS Glue</span>
-          
-          <span class="tech-badge">Amazon DynamoDB</span>
-          
-          <span class="tech-badge">Amazon API Gateway</span>
-          
-          <span class="tech-badge">Amazon CloudWatch</span>
+          <span class="tech-badge">sklearn</span>
           
           <span class="tech-badge">Python</span>
           
-          <span class="tech-badge">AWS CloudFormation</span>
+          <span class="tech-badge">AWS Sagemaker</span>
+          
+          <span class="tech-badge">io</span>
           
         </div>
 
@@ -239,19 +235,19 @@ I picked the projects that best represent my abilities and interests, and showca
 
           <div class="detail-block">
             <h4>Problem</h4>
-            <p>The manufacturing operations team lacked a low-latency way to monitor line sensor health and react to anomalies. Existing systems were manual, fragmented, and unable to scale with increasing event volume.
+            <p>Compare sagemaker to regular sklearn to figure out which machine learning model was more accurate in predicting how long it took for the city departments to resolve complaints.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>Designed an event-driven ingestion pipeline using API Gateway and Lambda to capture streaming sensor data into S3. Added Lambda-based ETL transforms to normalize records, store aggregate metrics in DynamoDB, and emit CloudWatch custom metrics for monitoring. Used CloudFormation to provision infrastructure and QuickSight-compatible outputs for dashboards.
+            <p>The approach was to first use Athena to create a binary classification of the data set in order to predict whether a complaint would be resolved in less than 3 days or not.  Then I used sagemaker to train a machine learning model on the data set and then I used sklearn to train a machine learning model on the same data set.  Finally I compared the results of the two models to see which one was more accurate.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Results &amp; Impact</h4>
-            <p>The solution processed over 1.2 million sensor events per day with end-to-end latency under 30 seconds. Automated alerts reduced response time by 60%, and operations staff adopted the dashboard as the primary tool for tracking line performance and incident trends.
+            <p>The results showed that the sagemaker model was more accurate than the sklearn model in predicting how long it took for the city departments to resolve complaints. This insight will help inform future machine learning projects and guide the selection of appropriate tools for different use cases.
 </p>
           </div>
         </details>
@@ -259,12 +255,12 @@ I picked the projects that best represent my abilities and interests, and showca
         <!-- Links to the GitHub repo and notebook -->
         <div class="project-links">
           
-          <a href="https://github.com/zeke-wonder-dog/aws-serverless-pipeline" target="_blank" rel="noopener" class="btn btn-repo">
+          <a href="https://github.com/EkowYalley/aws-nyc311-yalleyek/tree/master" target="_blank" rel="noopener" class="btn btn-repo">
             View Repo
           </a>
           
           
-          <a href="https://github.com/zeke-wonder-dog/aws-serverless-pipeline/blob/main/architecture_diagram.png" target="_blank" rel="noopener" class="btn btn-notebook">
+          <a href="https://github.com/EkowYalley/aws-nyc311-yalleyek/tree/master/aws-nyc311-yalleyek/notebooks" target="_blank" rel="noopener" class="btn btn-notebook">
             View Notebook
           </a>
           
@@ -289,7 +285,7 @@ I picked the projects that best represent my abilities and interests, and showca
     
     <li>
       <span class="contact-label">LinkedIn:</span>
-      <a href="https://www.linkedin.com/in/zeke-the-wonder-dog" target="_blank" rel="noopener">https://www.linkedin.com/in/zeke-the-wonder-dog</a>
+      <a href="https://www.linkedin.com/in/ekow-yalley-29869a260/" target="_blank" rel="noopener">https://www.linkedin.com/in/ekow-yalley-29869a260/</a>
     </li>
     
     

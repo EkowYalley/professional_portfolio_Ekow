@@ -8,10 +8,10 @@
 title: "Project Sql"
 
 short_summary: >
-  Built a model to identify the best nap locations on MSU's campus based
-  on sunlight exposure, foot traffic, grass quality, and proximity to
-  food smells. Findings have been peer-reviewed by three other dogs and
-  were described as "life-changing" and "very good."
+  FOr this SQL project I had to work with the Actors database to figure out some insightson the data base.
+  I answered various questions about the data base and I had to use different SQL commands to get the answers, like which actor
+  generates the most revenue by agregating data bases. I used this insight to make recommendations to the manager of the video store on how to optimize sales and inventory management.
+  
 
 tech_stack:
   - Python
