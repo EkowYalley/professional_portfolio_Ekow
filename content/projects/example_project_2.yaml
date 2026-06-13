@@ -5,33 +5,33 @@
 # Copy this file to create your own project entries.
 # ============================================================
 
-title: "Project Me vs You"
+title: "Project Sports prediction"
 
 short_summary: >
-  This is a project I made at a recent hackathon in the category of games. 
-  I used the turtle library to create a game inspired by snake but it was a two player game. 
-  The game was called me vs you and the goal was to eat the food and grow your snake while trying to avoid colliding with the other snake. 
-  The game was a lot of fun to make and play and I learned a lot about how to use the turtle library to create games.
+  The project I did for 
 
 tech_stack:
+  - Pandas
+  - Pathlib
   - Python
-  - Turtle
-  - Time
-  - Random 
+  - re
+  - numpy
+  - matplotlib
+  - sklearn 
 
 problem_statement: >
-  The problem was to create an engaging two-player snake game using the turtle library in Python.
+  The problem was to find which model was more accurate at predicting the outcomes of the march madness tournament. 
 
 approach: >
-  I built the game step by step, starting with simple snake movement and then adding a second player.
-  I kept the code organized by putting movement and reset behavior into separate functions like move_snake and reset_snake.
-  I also used Git to track changes and tested the game carefully to make sure collisions and boundaries work correctly.
+  I used data sets that were publicaly avalible of previous march madness tournaments and I used those previous results to 
+  create a new data frame of what I felt was the most important features to predict the outcomes of the tournament. I then used that data frame to train different machine learning models 
+  and then I compared the results of those models to see which one was more accurate at predicting the outcomes of the tournament.
 
 results_impact: >
-  The final result is a working two-player snake game made with Turtle.
-  I improved the game by replacing hardcoded settings with variables so it is easier to adjust difficulty.
-  The cleaner reset logic also fixed crashes when both snakes collided, making the game more stable and fun to play.
+  I recorded the frequency of how many times each model predicted how many times each team would go to each round of the tournament and then 
+  I compared those frequencies to the actual outcomes of the tournament to see which model was more accurate.
 
-repo_url: "https://github.com/EkowYalley/Me-vs-You/tree/main"
+
+repo_url: "https://github.com/Lcoronam/March-Madness/tree/main"
 notebook_url: "https://github.com/EkowYalley/Me-vs-You/blob/main/Hack.py"
-image_path: "img/Project_3.png"
+image_path: "img/img-LC.png"
