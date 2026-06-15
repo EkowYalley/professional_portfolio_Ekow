@@ -132,29 +132,35 @@ I picked the projects that best represent my abilities and interests, and showca
       <!-- Project thumbnail image -->
       <div class="project-image-wrapper">
         <img
-          src="img/Project_3.png"
-          alt="Thumbnail for Project Me vs You"
+          src="img/img-LC.png"
+          alt="Thumbnail for Project Sports prediction"
           class="project-image"
         />
       </div>
 
       <div class="project-body">
-        <h3 class="project-title">Project Me vs You</h3>
+        <h3 class="project-title">Project Sports prediction</h3>
 
         <!-- Short summary written for a non-expert audience -->
-        <p class="project-summary">This is a project I made at a recent hackathon in the category of games.  I used the turtle library to create a game inspired by snake but it was a two player game.  The game was called me vs you and the goal was to eat the food and grow your snake while trying to avoid colliding with the other snake.  The game was a lot of fun to make and play and I learned a lot about how to use the turtle library to create games.
+        <p class="project-summary">The project I did for 
 </p>
 
         <!-- Tech stack as pill badges -->
         <div class="tech-stack">
           
+          <span class="tech-badge">Pandas</span>
+          
+          <span class="tech-badge">Pathlib</span>
+          
           <span class="tech-badge">Python</span>
           
-          <span class="tech-badge">Turtle</span>
+          <span class="tech-badge">re</span>
           
-          <span class="tech-badge">Time</span>
+          <span class="tech-badge">numpy</span>
           
-          <span class="tech-badge">Random</span>
+          <span class="tech-badge">matplotlib</span>
+          
+          <span class="tech-badge">sklearn</span>
           
         </div>
 
@@ -164,19 +170,19 @@ I picked the projects that best represent my abilities and interests, and showca
 
           <div class="detail-block">
             <h4>Problem</h4>
-            <p>The problem was to create an engaging two-player snake game using the turtle library in Python.
+            <p>The problem was to find which model was more accurate at predicting the outcomes of the march madness tournament. 
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Approach</h4>
-            <p>I built the game step by step, starting with simple snake movement and then adding a second player. I kept the code organized by putting movement and reset behavior into separate functions like move_snake and reset_snake. I also used Git to track changes and tested the game carefully to make sure collisions and boundaries work correctly.
+            <p>I used data sets that were publicaly avalible of previous march madness tournaments and I used those previous results to  create a new data frame of what I felt was the most important features to predict the outcomes of the tournament. I then used that data frame to train different machine learning models  and then I compared the results of those models to see which one was more accurate at predicting the outcomes of the tournament.
 </p>
           </div>
 
           <div class="detail-block">
             <h4>Results &amp; Impact</h4>
-            <p>The final result is a working two-player snake game made with Turtle. I improved the game by replacing hardcoded settings with variables so it is easier to adjust difficulty. The cleaner reset logic also fixed crashes when both snakes collided, making the game more stable and fun to play.
+            <p>I recorded the frequency of how many times each model predicted how many times each team would go to each round of the tournament and then  I compared those frequencies to the actual outcomes of the tournament to see which model was more accurate.
 </p>
           </div>
         </details>
@@ -184,7 +190,7 @@ I picked the projects that best represent my abilities and interests, and showca
         <!-- Links to the GitHub repo and notebook -->
         <div class="project-links">
           
-          <a href="https://github.com/EkowYalley/Me-vs-You/tree/main" target="_blank" rel="noopener" class="btn btn-repo">
+          <a href="https://github.com/Lcoronam/March-Madness/tree/main" target="_blank" rel="noopener" class="btn btn-repo">
             View Repo
           </a>
           

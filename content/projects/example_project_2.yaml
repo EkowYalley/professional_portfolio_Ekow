@@ -8,7 +8,8 @@
 title: "Project Sports prediction"
 
 short_summary: >
-  The project I did for 
+  The project I did for Introduction to Machine Learning was to predict the outcomes of the march madness tournament using different machine learning models and then comparing the results of those models to see which one was more accurate at predicting the outcomes of the tournament.
+
 
 tech_stack:
   - Pandas
@@ -34,4 +35,4 @@ results_impact: >
 
 repo_url: "https://github.com/Lcoronam/March-Madness/tree/main"
 notebook_url: "https://github.com/EkowYalley/Me-vs-You/blob/main/Hack.py"
-image_path: "img/img-LC.png"
+image_path: "img/img_LC.png"
